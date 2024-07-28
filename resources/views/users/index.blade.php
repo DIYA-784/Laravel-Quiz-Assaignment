@@ -9,7 +9,7 @@
 <?php $counter = 1;?>
 <section class="mt-5">
     <div class="container">
-        @if($all_quiz->count() > 0)
+        @if($all_quiz ->count() > 0)
             <h1>Start Your Quiz</h1>
             @foreach($all_quiz as $quizzes)
             <div class="container mt-2">

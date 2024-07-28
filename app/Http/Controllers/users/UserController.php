@@ -14,7 +14,7 @@ use validator;
 class UserController extends Controller
 {
     public function index(){
-        $all_quiz = DB::table('quizzes')->orderBy('id', 'desc')->get();
+        $all_quiz = Quiz::all();
         return view('users.index' , compact('all_quiz'));
     }
     public function home(){
