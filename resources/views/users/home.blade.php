@@ -14,7 +14,7 @@
                 @if($get_quiz ->count() > 0)
                     <a href="{{route('user.show_quiz')}}" class="btn btn-primary">Start Quiz</a>
                 @else
-                    <h5>No quiz yet. Add quiz now.</h5>
+                    <h5>No quiz to play.</h5>
                 @endif
             </div>
         </div>
