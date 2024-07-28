@@ -11,5 +11,6 @@ Here, I have used laravel latest 11.0 version.
 
 # Instructions for running the project locally
 
-1. In quiz_assaignment folder, there is a quiz_db zip file. Unzip quiz_db folder and import the database in mysql database, db name is quiz_assaignment.
-2. 
+1. Install xampp in browser and then start apache and mysql. Then open localhost dashboard in browser.
+2. then go into quiz_assaignment folder, there is a quiz_db zip file. Unzip quiz_db folder and download it and then import the database in mysql database, db name is quiz_assaignment.
+3. In quiz_assaignment cmd, run php artisan serve and there there will generate an url. Run the URL in browser and project will be open.
