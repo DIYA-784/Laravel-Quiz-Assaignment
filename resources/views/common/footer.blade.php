@@ -33,27 +33,6 @@
         }
 
         
-        // quiz btn activate one by one and next button validation
-        // function nextValidation(event){
-            // event.preventDefault();
-        //     let button = event.target;
-        //     let currentQuizItem = button.closest('.quiz-item');
-        //     let submitBtns = currentQuizItem.querySelector(".submit_btn");
-        //     let checkboxes = currentQuizItem.querySelectorAll('input[type="checkbox"]');
-        //     let isChecked = Array.from(checkboxes).some(checkbox => checkbox.checked);
-
-        //     if (!isChecked) {
-        //         alert('Please select at least one option before proceeding.');
-        //         event.preventDefault();
-        //     } else{
-        //         submitBtns.classList.add('disabled');
-        //         let next_div = currentQuizItem.nextElementSibling;
-        //         let next_submitBtn = next_div.querySelector(".submit_btn");
-        //         next_submitBtn.classList.remove('disabled');
-        //         event.preventDefault();
-        //     }
-        // }
-
 
     </script>
   </body>
