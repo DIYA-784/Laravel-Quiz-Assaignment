@@ -8,6 +8,7 @@ Here, I have used laravel latest 11.0 version.
 2. Logged in user can add quiz and can play other users quizzes and show their result which is initially 0. 
 3. Logged in user cannot play their quiz.
 4. Logged in user cannot access login and register page.
+5. 3 users created in members table. password is 123456.
 
 # Instructions for running the project locally
 
