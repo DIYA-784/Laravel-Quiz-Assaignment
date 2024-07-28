@@ -28,12 +28,6 @@
                         @endif
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('user.login')}}">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{route('user.register')}}">Register</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="{{route('user.add_quiz')}}">Add Quiz</a>
                     </li>
                     <li class="nav-item">
@@ -41,6 +35,13 @@
                     </li>
                     
                     @if (auth('member')->check())
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{route('user.login')}}">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{route('user.register')}}">Register</a>
+                    </li>
+                    
                     <li class="nav-item">
                         <h5>{{Auth::guard('member')->user()->name}}</h5>
                     </li>
