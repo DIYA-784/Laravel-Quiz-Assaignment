@@ -16,7 +16,7 @@ class LoginController extends Controller
     }
     
     public function reg_create(Request $request){
-       
+        // dd($req->all());
         $validated = $request->validate([
             'name' => 'required|max:30|min:3',
             'phone' => 'required|max:10',
